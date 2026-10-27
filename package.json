@@ -1,0 +1,12 @@
+{
+  "name": "zephyr",
+  "private": true,
+  "type": "module",
+  "description": "Voice-first writing app. No build step: the site is served as-is.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "themes": "node tools/build-themes.mjs",
+    "serve": "python3 -m http.server 8080"
+  },
+  "license": "AGPL-3.0-only"
+}
